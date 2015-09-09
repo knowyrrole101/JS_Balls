@@ -34,6 +34,9 @@
 				});
 
 			document.getElementById('svg').appendChild(circle);
+			//change screen height/width in DOM
+			document.getElementById('svg').style.height = '100%';
+			document.getElementById('svg').style.width = '100%';
 		}
 
 		this.update = function(time){
